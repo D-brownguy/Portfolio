@@ -1,0 +1,160 @@
+/* For hiding a container */
+.hidden{
+  transform: scale(0);
+}
+/* For hiding a container */
+
+
+.home{
+  position: absolute;
+  top: 0;
+  background-color: #1B1B2F;
+  font-size: 1.5em;
+  left: 0;
+  min-height: 100vh;
+  margin: 0;
+  right: 0;
+  padding: 0;
+  width: 100% ;
+  text-align: center;
+  color: #E43F5A;
+  font-family:'Montserrat', sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes pagein{
+  from{
+    transform: translateY(10%);
+    opacity:0 ;
+  }
+  to{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+.backtopage1{
+transform: scale(0);
+opacity: 0;
+}
+
+.headtext{
+  font-size: .8em;
+  margin: 50px;
+  padding:10px ;
+  animation : pagein ease-in 1s forwards;
+}
+
+.havelook{
+  background-color: #ff5833;
+  opacity: .8;
+  color: #1B1B2F;
+  padding: 1em;
+  margin-bottom: 2em;
+  animation : pagein ease-in 1.2s forwards;
+}
+
+.col{
+  float: left;
+  width: 30%;
+  min-height: fit-content;
+  animation : pagein ease-in 1.4s forwards;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  margin: 10px;
+}
+
+.box1, .box2, .box3 {
+    color:  #E43F5A;
+
+    margin:.6em;
+    padding:.5em ;
+    font-size: .9em;
+    animation : pagein ease-in 1.8s forwards;
+}
+
+
+.downapk{
+    background-color: #1B1B2F;
+    color: #E43F5A;
+    margin: 0;
+    padding:.4em ;
+}
+
+.downapk:hover{
+    background-color: #ff5833;
+    color: #1B1B2F;
+}
+
+.allgames{
+  background-color:#E43F5A;
+  color: #1B1B2F ;
+  padding: 10px;
+  animation : pagein ease-in 2s forwards;
+}
+
+.allgames:hover{
+    background-color: #ff5833;
+}
+
+/* for showing all the games  */
+
+.all{
+  position: absolute;
+  top: 0;
+  background-color: #1B1B2F;
+  font-size: 1.5em;
+  left: 0;
+  min-height: 100vh;
+  margin: 0;
+  right: 0;
+  padding: 0;
+  width: 100% ;
+  text-align: center;
+  color: #E43F5A;
+  font-family:'Montserrat', sans-serif;
+
+  animation: gamescreen ease-out 1.2s forwards;
+  transform-origin: bottom;
+}
+
+@keyframes gamescreen {
+  from {
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+
+  }
+}
+
+.back{
+  margin: 5em;
+  padding: 10px;
+  color:#E43F5A;
+}
+
+.back:hover{
+  background-color:#E43F5A;
+  color: #1B1B2F;
+}
+
+
+
+
+/* for showing all the games  */

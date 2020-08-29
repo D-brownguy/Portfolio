@@ -1,0 +1,462 @@
+
+body{
+    background-image:linear-gradient(#E43F5A,#1B1B2F);
+    padding: 0;
+    height: 100%;
+
+}
+
+/* Home Page Styles */
+.home{
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    font-size: 1.5px;
+    animation: TransitionIN ease-in 1s forwards;
+    min-height: 100vh;
+}
+
+.bg{
+    font-size:8em ;
+    font-family:'Montserrat', sans-serif;
+    position: absolute;
+    order: 0 ;
+    opacity:.1 ;
+    top: .6em;
+    animation: Transition ease-in 1s forwards;
+
+}
+.bg1{
+    font-size:8em ;
+    font-family:'Montserrat', sans-serif;
+    position: absolute;
+    order: 0 ;
+    opacity:.09 ;
+    top: 1em;
+    animation: Transition ease-in 1s forwards;
+
+}
+
+
+@keyframes TransitionIN{
+    from{
+        opacity: 0;
+        transform: translateY(1%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+        }
+}
+@keyframes Transition{
+    from{
+        opacity: 0;
+        transform: translateY(1%);
+    }
+    to{
+
+        transform: translateY(0);
+        }
+}
+
+.hidden{
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+
+
+
+}
+
+.abtme{
+    font-size: 15em;
+    font-family:'Montserrat', sans-serif;
+    opacity: .8;
+    padding: 60px 50px ;
+    margin: 20px;
+    display:block;
+    transform: scale(1);
+}
+
+/* Buttons Home page */
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.btn1{
+    position: absolute;
+    top:60% ;
+    left: 25%;
+    font-size: 15em;
+}
+.btn2{
+    position: absolute;
+    top:60%;
+    left: 37%;
+    font-size: 15em;
+}
+.btn3{
+    position: absolute;
+    top: 60%;
+    right: 38%;
+    font-size: 15em;
+}
+
+.btn4{
+    position: absolute;
+    top: 60%;
+    right: 25%;
+    font-size: 15em;
+}
+
+
+/* .btn1:hover{
+    top: 1em;
+    left:5em;
+    font-size:80em ;
+    font-style: bold;
+}
+
+.btn3:hover{
+    top: 1em;
+    left:3em;
+    font-size:90em ;
+    font-style: bold;
+
+}
+.btn2:hover{
+    top: 2em;
+    left:4em;
+    font-size:60em ;
+    font-style: bold;
+
+} */
+
+
+/* Home Page ----------------------------------- */
+
+
+/* About Me Page =============================== */
+
+.Page1{
+    position: absolute;
+    top: 0;
+    background-color: #1B1B2F;
+    font-size: 1.5em;
+    min-height: 100vh;
+    margin: 0;
+    left: 0;
+    padding: 0;
+    width: 100% ;
+    text-align: center;
+    color: #E43F5A;
+    font-family:'Montserrat', sans-serif;
+    transform: scale(0);
+    animation: pg1 ease-in 1s forwards;
+    transform-origin: right;
+    display: block;
+
+
+}
+
+.text{
+    animation: forwards ease-in text 2s 1s;
+    opacity: 0;
+}
+
+
+.profile{
+    position: absolute;
+    top: 3em;
+    right: 1em;
+    margin: 0;
+    width: max-content;
+    animation: text ease-in 2s 1s backwards;
+}
+
+.back{
+    position: absolute;
+    transform: scale(.5);
+    top: 0;
+    left: 2em;
+
+    animation: bk ease-in-out 2s 1s forwards ;
+}
+
+
+
+
+
+/* animations */
+@keyframes pg1{
+    from{
+        transform: scaleX(0);
+
+
+    }
+    to{
+        transform: scaleX(1) ;
+
+    }
+}
+
+
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes bk{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* About Me -------------------------------------- */
+
+
+/* Contact Me______________________--------------------------------------___________ */
+
+.Page2{
+    position: absolute;
+    top: 0;
+    background-color: #1B1B2F;
+    font-size: 1.5em;
+    left: 0;
+    min-height: 100vh;
+    margin: 0;
+    right: 0;
+    padding: 0;
+    width: 100% ;
+    text-align: center;
+    color: #E43F5A;
+    font-family:'Montserrat', sans-serif;
+    transform: scale(0);
+    animation: pg2 ease-in 1s forwards;
+    transform-origin: left;
+}
+
+.t1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2em;
+    padding: 1%;
+    transform: scale(0.7);
+    animation: head 1s 1.2s backwards ;
+    position: relative;
+}
+
+.t2{
+
+    font-family:'Montserrat', sans-serif;
+    font-style: bold;
+    transform: scale(0.7);
+    position: relative;
+    animation: head 1s 1.3s backwards ;
+
+}
+
+.back1{
+    position: absolute;
+    transform: scale(0.4);
+    top: 1em;
+    left: 2em;
+
+    animation: bk1 ease-in-out 1s 2.4s backwards ;
+}
+
+.connections{
+
+
+    transform: scale(.7);
+
+}
+
+
+.cnt{
+    margin-top: 30px;
+    margin:2em ;
+    padding: 10px;
+    position: relative;
+    color: #ff5833;
+    font-size: 1em;
+    contain: content;
+}
+
+.git{
+    animation: head ease-in 1s 2s backwards;
+    color: #ff5833;
+}
+
+.gmail{
+    animation: head ease-in 1s 2.1s backwards;
+}
+
+.LinkedIN{
+    animation: head ease-in 1s 2.2s backwards;
+}
+
+.twitter{
+    animation: head ease-in 1s 2.3s backwards;
+}
+
+
+.Back1{
+    position: relative;
+}
+
+
+
+
+/* animations */
+
+@keyframes pg2{
+    from{
+        transform: scaleX(0);
+
+
+    }
+    to{
+        transform: scaleX(1) ;
+
+    }
+}
+
+@keyframes head{
+    from{
+        opacity:0 ;
+
+    }
+    to {
+        opacity:1;
+
+    }
+}
+ @keyframes bk1{
+     from{
+         transform: scale(0);
+         opacity: 0;
+     }
+     to{
+         transform: scale(50%);
+         opacity: 1;
+     }
+ }
+
+
+/* Contact Me______________________--------------------------------------___________ */
+
+
+
+
+
+/*For Mobile Devices*/
+@media screen and (max-width: 680px){
+
+    .btn1{
+        font-size:14em ;
+        margin: 1em;
+        top: 12em;
+    }
+    .btn2{
+        font-size:12em ;
+        margin: 1em;
+        top: 17em;
+    }
+    .btn3{
+        font-size:12em ;
+        top: 21em;
+
+        }
+    .btn4{
+            font-size:12em ;
+            top: 24em;
+            left:4em ;
+            }
+    .btn5{
+            font-size:12em ;
+            top: 27em;
+        }
+
+    #ab1tme, #connect, #work, #Skills, #Blogs{
+        display: none;
+    }
+
+    .profile{
+            position: absolute;
+            top: 1em;
+            right: 5em;
+            opacity: 1;
+            transform: scale(0.5);
+        }
+
+    .text{
+        position: absolute;
+        top: 20em;
+        font-size: 0.6em;
+        margin: 15%;
+        margin-top: 10%;
+        line-height: 1.5em;
+    }
+
+    .Page1{
+        height:100% ;
+
+    }
+
+    .bg , .bg1{
+
+        font-size: 4em;
+    }
+
+
+    /* Skills and works      */
+    .headtext{
+        font-size: .8em;
+        margin: 0;
+        padding:30px ;
+        font-size:.7em;
+    }
+
+
+    .havelook{
+        margin : 0;
+    }
+
+    .backtopage1{
+        padding: 10px ;
+        margin: 0;
+        margin-bottom:1em;
+        background-color: #E43F5A;
+        color: #1B1B2F;
+        font-size: .6em;
+        animation: head  ease-in 5s forwards;
+        transform: scale(1);
+
+    }
+    /* Skills and works      */
+}
+
+
+
+
+
+
+
+
+
+
+
