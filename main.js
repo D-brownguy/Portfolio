@@ -21,6 +21,7 @@ var buttn1 = document.getElementById("button1");
  var email = document.getElementById('Acc1');
  var Linked = document.getElementById('Acc2');
  var tweetr = document.getElementById('Acc3');
+ var itchio = document.getElementById('Acc4');
  var buttnback1 = document.getElementById('btnBack1');
 
 
@@ -92,7 +93,9 @@ var buttn1 = document.getElementById("button1");
     email.classList.add('gmail');
     Linked.classList.add('LinkedIN');
     tweetr.classList.add('twitter');
+    itchio.classList.add('itch');
     buttnback1.classList.add('back1');
+
 
     page2.classList.remove('hidden');
     toptext.classList.remove('hidden');
@@ -101,6 +104,7 @@ var buttn1 = document.getElementById("button1");
     email.classList.remove('hidden');
     Linked.classList.remove('hidden');
     tweetr.classList.remove('hidden');
+    itchio.classList.remove('hidden');
     buttnback1.classList.remove('hidden');
 
   }
@@ -131,7 +135,9 @@ var buttn1 = document.getElementById("button1");
     email.classList.remove('gmail');
     Linked.classList.remove('LinkedIN');
     tweetr.classList.remove('twitter');
+    itchio.classList.remove('itch');
     buttnback1.classList.remove('back1');
+    
 
     page2.classList.add('hidden');
     toptext.classList.add('hidden');
@@ -140,8 +146,12 @@ var buttn1 = document.getElementById("button1");
     email.classList.add('hidden');
     Linked.classList.add('hidden');
     tweetr.classList.add('hidden');
+    itchio.classList.add('hidden');
     buttnback1.classList.add('hidden');
   }
+
+  
+
 
 
 

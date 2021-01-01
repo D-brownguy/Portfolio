@@ -291,14 +291,26 @@ a{
     margin:2em ;
     padding: 10px;
     position: relative;
-    color: #ff5833;
+    color: #E43F5A;
     font-size: 1em;
     contain: content;
+    max-height: 9px;
+    max-width: 9px;
+}
+
+.cnt img{
+    max-height:25px;
+    margin-top:30px;
+    margin-right:15px;
+}
+
+.cnt:hover{
+    color: #e4813f;
 }
 
 .git{
     animation: head ease-in 1s 2s backwards;
-    color: #ff5833;
+    color: #E43F5A;
 }
 
 .gmail{
@@ -311,6 +323,10 @@ a{
 
 .twitter{
     animation: head ease-in 1s 2.3s backwards;
+}
+
+.itch{
+    animation: head ease-in 1s 2.4s backwards;
 }
 
 
@@ -394,6 +410,91 @@ a{
     #ab1tme, #connect, #work, #Skills, #Blogs{
         display: none;
     }
+
+    .profile{
+            position: absolute;
+            top: 1em;
+            right: 5em;
+            opacity: 1;
+            transform: scale(0.5);
+        }
+
+    .text{
+        position: absolute;
+        top: 20em;
+        font-size: 0.6em;
+        margin: 15%;
+        margin-top: 10%;
+        line-height: 1.5em;
+    }
+
+    .Page1{
+        height:100% ;
+
+    }
+
+    .bg , .bg1{
+
+        font-size: 4em;
+    }
+
+
+    /* Skills and works      */
+    .headtext{
+        font-size: .8em;
+        margin: 0;
+        padding:30px ;
+        font-size:.7em;
+    }
+
+
+    .havelook{
+        margin : 0;
+    }
+
+    .backtopage1{
+        padding: 10px ;
+        margin: 0;
+        margin-bottom:1em;
+        background-color: #E43F5A;
+        color: #1B1B2F;
+        font-size: .6em;
+        animation: head  ease-in 5s forwards;
+        transform: scale(1);
+
+    }
+    /* Skills and works      */
+}
+
+/*For Tab and Half Windows */
+@media screen and (max-width: 1280px) and (min-width: 680px){
+
+    .btn1{
+        font-size:13em ;
+        margin: 1em;
+        top: 18em;
+    }
+    .btn2{
+        font-size:13em ;
+        margin: 1em;
+        top: 16.5em;
+    }
+    .btn3{
+        font-size:13em ;
+        top: 21em;
+        }
+    .btn4{
+        font-size:13em ;
+        top: 19.5em;
+    } 
+    /* .btn5{
+        font-size:12em ;
+        top: 25em;
+    } */
+
+    #ab1tme, #connect, #work, #Skills, #Blogs{
+        display: none;
+    } 
 
     .profile{
             position: absolute;
